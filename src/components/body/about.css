@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200;400&display=swap');
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif !important;
+
+ }
+ h1, h2, h3, h4, h5, h6{
+    font-family: 'DM Serif Display', serif !important;
+ }
+ h1{
+    font-size: 4rem !important;
+ }
+ h2{
+    font-size: 3.5rem !important;
+ }
+ h3{
+    font-size: 3rem !important;
+ }
+ h4{
+    font-size: 2.5rem !important;
+ }
+ h5{
+    font-size: 2rem !important;
+ }
+ p{
+    font-size: 16px !important;
+ }
+ h6{
+    font-size: 1.5rem !important;
+ }
+ .about .container{
+    margin: auto;
+    width: 100vw;
+    height: fit-content;
+    margin-top: 2rem;
+    margin-top: 2rem;
+ }
+
+ .about .container .text, .about .container .image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    row-gap: 15px;
+    align-items: center;
+}
+
+.about .container .text p{
+ text-align: left !important;
+ width: 90%;
+}
+.about .container .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .container .image img{
+ object-fit: cover !important;
+ width: 99%;
+}
+.about .container h2{
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left !important;
+}
+@media (max-width:990px) {
+    .about img{
+        width: 100vw !important;
+    };
+    
+}

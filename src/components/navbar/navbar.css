@@ -1,0 +1,40 @@
+.navbar-toggler {
+    border: none !important;
+}
+nav .navLinks {
+    display: flex !important;
+    align-items: baseline !important;
+    justify-content: baseline !important;
+}
+
+@media (max-width: 992px) {
+  nav .container {
+    display: flex !important;
+    align-items: baseline !important;
+    justify-content: space-between !important;
+  }
+  nav .togglerMeniu {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row-reverse;
+}
+.navLinks{
+
+    gap: 1rem;
+}
+}
+
+@media (max-width: 992px) {
+    nav .togglerMeniu {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column;
+    }
+    .navLinks{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5px;
+    }
+}
