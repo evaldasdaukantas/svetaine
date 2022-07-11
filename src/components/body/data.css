@@ -1,0 +1,9 @@
+.lentele{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: bisque;
+    height: 3000px;
+    gap: 30px;
+    justify-content: start;
+    align-items: flex-start;
+}

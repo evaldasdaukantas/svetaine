@@ -44,17 +44,29 @@
 .services .container p{
     text-align: left !important;
 }
+.listService{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
 @media (min-width:990px) {
     .services .list{
         display: flex;
         justify-content:space-evenly ;
         padding-left: 5px;
     }
+  
     
 }
 @media (max-width:990px) {
     .services img{
         width: 100vw !important;
-    };
-    
+    }
+    .listService{
+        display: flex;
+        flex-direction: column;
+    }
+
 }

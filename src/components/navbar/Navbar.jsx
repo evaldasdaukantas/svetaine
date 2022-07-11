@@ -11,7 +11,7 @@ export default function navbar() {
 <Navbar bg="light" expand="lg">
   <Container>
     <div className='image'>
-    <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
+    <Navbar.Brand href="/"><img src={logo} alt="" /></Navbar.Brand>
       </div>
       <div className="togglerMeniu">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />

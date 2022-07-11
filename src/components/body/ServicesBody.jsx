@@ -2,7 +2,8 @@ import React from "react";
 import "./services.css";
 import logoDish from "./image/services/ronise-daluz-unsplash-YN8wPlQn2JiqJ2a5.avif";
 import logoFood from "./image/services/brooke-lark-unsplash-mkEkqQg2l0FxRKPv.avif";
-
+import Paslaugos1 from "./Paslaugos1";
+import Paslaugos2 from "./Paslaugos2";
 const Services = () => {
   return (
     <div>
@@ -14,49 +15,29 @@ const Services = () => {
           <div className="text">
             <div className="col-lg-6">
               <p>
-              From small, family events to grand corporate gatherings, we offer a huge variety of services here at Belton. Let us know exactly what your needs are and we will do our very best to make your event memorable. 
+                From small, family events to grand corporate gatherings, we
+                offer a huge variety of services here at Belton. Let us know
+                exactly what your needs are and we will do our very best to make
+                your event memorable.
               </p>
               <br />
               <p>
-              Even if you don't see your occasion listed below, we encourage you to get in touch. We'll be glad to provide you with a custom quote. 
+                Even if you don't see your occasion listed below, we encourage
+                you to get in touch. We'll be glad to provide you with a custom
+                quote.
               </p>
             </div>
             <div className="col-lg-6">
               <div className="list">
                 <div className="listService">
-                    <b>SERVICES</b>
-                  <ul>
-                    <li>
-                     Birthdays;
-                    </li>
-                    <li>
-                    Anniversaries;
-                    </li>
-                    <li>
-                    Christenings;
-                    </li>
-                    <li>
-                    Weddings;
-                    </li>
-                  </ul>
-                </div>
-                <div className="listExtra">
+                   <div>
+                  <b>SERVICES</b>
+                  <Paslaugos1 />
+                  </div>
+                  <div>
                   <b>EXTRA SERVICES</b>
-                  <ul>
-
-                    <li>
-                    Plate and glass rental;
-                    </li>
-                    <li>
-                    Table decor; 
-                    </li>
-                    <li>
-                    Allergy-friendly menus; 
-                    </li>
-                    <li>
-                    Dessert table;
-                    </li>
-                  </ul>
+                  <Paslaugos2 />
+                  </div>
                 </div>
               </div>
             </div>
